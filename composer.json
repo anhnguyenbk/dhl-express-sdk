@@ -1,0 +1,21 @@
+{
+    "name": "anhnguyenbk/dhl-express-sdk",
+    "description": "SDK for DHL Express Global Web services",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Anh Nguyen",
+            "email": "nghoanganh994@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AnhNguyen\\DhlExpressSdk\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
